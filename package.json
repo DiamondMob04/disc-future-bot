@@ -1,0 +1,25 @@
+{
+  "name": "future-discord-bot-2",
+  "version": "2.1.0",
+  "description": "A cool 2.0 bot!",
+  "main": "node server.js",
+  "prefix": "f!",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon server.js -e js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.8.4",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.2.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
